@@ -12,6 +12,20 @@
 
 
 @media (max-width: 991px) {
+  .about-wrapper h2 span {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+  .about-wrapper a{
+    right: 0;
+  }
+  .about-wrapper h2 {
+   
+    max-width: 600px;
+    height: 600px;
+    
+    margin: auto;
+}
  a.nav-link.text-uppercase.btns{
     border-bottom: none !important;
   }
@@ -253,8 +267,57 @@ img.color-logo{
 }
 
 .contol_custom{display: none;}
+
+.video-caption {
+  top: 50%;
 }
+}
+
+
 @media (max-width: 767px) {
+
+  .video-caption {
+    top: 46%;
+}
+.flip {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+  .about-wrapper a img {
+    width: 33px;
+    margin-top: 0;
+}
+.about-wrapper .position-relative {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.about-wrapper a {
+    right: 0;
+    position: inherit;
+    margin-top: 30px;
+    padding-top: 13px;
+}
+
+  .about-wrapper{
+    padding: 50px 0;
+  }
+
+  .about-wrapper span{
+        font-size: 40px;
+}
+  .about-wrapper h2 {
+    max-width: max-content;
+    height: auto;
+    margin: auto;
+    background: transparent;
+    color: #fff;
+  }
+
   .services-box h3 {
     font-size: 20px;
 }
